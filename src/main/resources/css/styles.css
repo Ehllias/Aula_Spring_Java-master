@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+#product-list .card {
+    transition: transform 0.2s;
+}
+
+#product-list .card:hover {
+    transform: scale(1.05);
+}
+
+.product-price {
+    color: green;
+    font-weight: bold;
+}
+
+.product-card {
+    cursor: pointer;
+}
+
+#sidebar {
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+#closeButton {
+    border: none;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #FFF;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#closeButton:hover {
+    background-color: #FFF; /* Red background on hover */
+    color: #000;
+}
+
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .btn-floating {
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer .btn-floating:hover {
+    background-color: #fff;
+    color: #000;
+}
