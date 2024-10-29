@@ -7,28 +7,12 @@ public class Imovel {
     private double tamanho;
     private double valor;
 
-    public int getCodigo() {
-        return codigo;
+    public double getValor() {
+        return valor;
     }
 
-    public void setCodigo(int codigo) {
-        this.codigo = codigo;
-    }
-
-    public String getRua() {
-        return rua;
-    }
-
-    public void setRua(String rua) {
-        this.rua = rua;
-    }
-
-    public String getNumero() {
-        return numero;
-    }
-
-    public void setNumero(String numero) {
-        this.numero = numero;
+    public void setValor(double valor) {
+        this.valor = valor;
     }
 
     public double getTamanho() {
@@ -39,12 +23,27 @@ public class Imovel {
         this.tamanho = tamanho;
     }
 
-    public double getValor() {
-        return valor;
+    public String getNumero() {
+        return numero;
     }
 
-    public void setValor(double valor) {
-        this.valor = valor;
+    public void setNumero(String numero) {
+        this.numero = numero;
     }
-    
+
+    public String getRua() {
+        return rua;
+    }
+
+    public void setRua(String rua) {
+        this.rua = rua;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
 }

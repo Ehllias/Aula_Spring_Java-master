@@ -2,15 +2,15 @@
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <jsp:include page="layouttopo.jsp"></jsp:include>
 	<div class="row">
-		<h1>Empresa</h1>
+		<h1>Nomes</h1>
 	</div>
 	<div class="row">	
 		<p>
-			Desenvolvimento de aplicações Web.
+			Lista de nomes.
 		</p>
 		<ul>
-			<c:forEach items="${lista}" var="item">
-				<li>${item}</li>
+			<c:forEach items="${lista}" var="nome">
+				<li>${nome}</li>
 			</c:forEach>
 		</ul>
 	</div>
